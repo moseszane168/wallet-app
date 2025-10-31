@@ -23,7 +23,7 @@ A centralized wallet application backend written in Go that provides core financ
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Go 1.21 or later
+- Go 1.25.0 or later
 
 ### Installation & Testing
 ```bash
