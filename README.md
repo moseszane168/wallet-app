@@ -162,14 +162,17 @@ func (ws *WalletService) GetTransactionHistory(userID string) ([]*Transaction, e
 ### Running Tests
 ```bash
 # Run all tests with coverage
-go test -v -cover -coverprofile=coverage.out
-go tool cover -html=coverage.out
+cd internal/wallet
+go test -v -cover -coverprofile coverage.out
+go tool cover -html coverage.out
 
 # Run specific test suites
+cd internal/wallet
 go test -v -run TestWalletService_DecimalPrecision
 go test -v -run TestWalletService_Concurrent
 
 # Run benchmarks
+cd internal/wallet
 go test -bench=. -benchmem
 ```
 
@@ -236,6 +239,7 @@ wallet-app/
 ## 📈 Benchmarks
 
 ```bash
+cd internal/wallet
 go test -bench=. -benchmem
 ```
 
