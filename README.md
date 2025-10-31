@@ -244,7 +244,7 @@ Results show excellent performance for concurrent operations with proper locking
 ## 🛠️ Dependencies
 
 ### Required
-- **github.com/shopspring/decimal** v1.3.1
+- **github.com/shopspring/decimal** v1.4.0
 
 ### Why This Dependency?
 - **Industry Standard**: Widely used in financial applications
